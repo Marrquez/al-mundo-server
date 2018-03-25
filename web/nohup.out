@@ -1,0 +1,158 @@
+Listening on port: 8080
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at Server.listen (net.js:1382:5)
+    at Function.listen (/home/ec2-user/Marrquez.github.io/web/node_modules/connect/index.js:217:24)
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:30:33)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at Server.listen (net.js:1382:5)
+    at Function.listen (/home/ec2-user/Marrquez.github.io/web/node_modules/connect/index.js:217:24)
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:30:33)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+/home/ec2-user/Marrquez.github.io/web/server.js:31
+http.listen(port, function(){
+     ^
+
+TypeError: http.listen is not a function
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:31:6)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+/home/ec2-user/Marrquez.github.io/web/server.js:31
+http.listen(port, function(){
+     ^
+
+TypeError: http.listen is not a function
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:31:6)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+/home/ec2-user/Marrquez.github.io/web/server.js:31
+http.listen(port, function(){
+     ^
+
+TypeError: http.listen is not a function
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:31:6)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+/home/ec2-user/Marrquez.github.io/web/server.js:31
+http.listen(port, function(){
+     ^
+
+TypeError: http.listen is not a function
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:31:6)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+/home/ec2-user/Marrquez.github.io/web/server.js:31
+http.listen(port, function(){
+     ^
+
+TypeError: http.listen is not a function
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:31:6)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+Listening on port: 8080
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at Server.listen (net.js:1382:5)
+    at Function.listen (/home/ec2-user/Marrquez.github.io/web/node_modules/connect/index.js:217:24)
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:31:5)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at Server.listen (net.js:1382:5)
+    at Function.listen (/home/ec2-user/Marrquez.github.io/web/node_modules/connect/index.js:217:24)
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:34:5)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at Server.listen (net.js:1382:5)
+    at Function.listen (/home/ec2-user/Marrquez.github.io/web/node_modules/connect/index.js:217:24)
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:38:5)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+stop: Unknown job: node
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8080
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at Server.listen (net.js:1382:5)
+    at Function.listen (/home/ec2-user/Marrquez.github.io/web/node_modules/connect/index.js:217:24)
+    at Object.<anonymous> (/home/ec2-user/Marrquez.github.io/web/server.js:38:5)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
