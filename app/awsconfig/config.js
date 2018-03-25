@@ -4,7 +4,7 @@ AWS.config.update({accessKeyId: constants.AK, secretAccessKey: constants.SAK});
 //AWS.config.region = "us-west-2";
 AWS.config.region = "us-east-2";
 
-var dynamoHotels = require('../models/ejercicios.js');
+var dynamoHotels = require('../models/hotel.js');
 
 function AwsWrapper () {
     this.dynamodb = new AWS.DynamoDB();

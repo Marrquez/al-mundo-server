@@ -4,7 +4,7 @@
 var jQuery = require('jquery-deferred');
 var constants = require('../utils/constants');
 
-Ejercicio = function (dynamodb) {
+Hotel = function (dynamodb) {
     this.dynamodb = dynamodb;
 
     /**
@@ -365,4 +365,4 @@ Ejercicio = function (dynamodb) {
 
 };
 
-module.exports = Ejercicio;
+module.exports = Hotel;
