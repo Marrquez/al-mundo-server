@@ -1431,6 +1431,10 @@ exports.getHotelsByStars = function (req, res) {
 
     if(stars === "1"){
         filteredHotels = hotels;
+    }else if(one === 0 && two === 0 && three === 0 && four === 0 && five === 0){
+        filteredHotels = hotels.filter(function(element, index){
+            return (element.name.toLowerCase().indexOf(name) !== -1);
+        });
     }else{
         filteredHotels = hotels.filter(function(element, index){
             return (element.name.toLowerCase().indexOf(name) !== -1) &&
@@ -1462,14 +1466,27 @@ exports.getHotelsByStars = function (req, res) {
  * Get hotels by name
  * */
 exports.getHotels = function (req, res) {
+    stars = req.query.all;
     name = req.query.name;
+    one = parseInt(req.query.one);
+    two = parseInt(req.query.two);
+    three = parseInt(req.query.three);
+    four = parseInt(req.query.four);
+    five = parseInt(req.query.five);
     var filteredHotels = [];
 
-    if(!name){
+    if((!name && stars === "1") || (!name && one === 0 && two === 0 && three === 0 && four === 0 && five === 0)){
         filteredHotels = hotels;
+    }else if(one === 0 && two === 0 && three === 0 && four === 0 && five === 0){
+        filteredHotels = hotels.filter(function(element, index){
+            return (element.name.toLowerCase().indexOf(name) !== -1);
+        });
     }else{
         filteredHotels = hotels.filter(function(element, index){
-            return element.name.indexOf(name) !== -1;
+            return (element.name.toLowerCase().indexOf(name) !== -1) &&
+                ((element.stars === one) || (element.stars === two) ||
+                    (element.stars === three) || (element.stars === four) ||
+                    (element.stars === five));
         });
     }
 
