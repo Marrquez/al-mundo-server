@@ -13,50 +13,40 @@ var router                  = express.Router();
 var HotelController     = require('./server/controllers/HotelController');
 var cors                    = require('cors');
 
-// in order to fix: No 'Access-Control-Allow-Origin'
+/**
+ * in order to fix: No 'Access-Control-Allow-Origin'
+ * to allow request from all origins
+ * */
 app.use(cors({origin: '*'}));
-//app.use(cors({origin: 'http://kiinitro.s3-website-us-west-2.amazonaws.com'}));
 
-//para permitir parsear jsons
+
+/**
+ * config response types and formats
+ * */
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-//implementar y personalizar metodos http
+/**
+ * implementar y personalizar metodos http
+ */
 app.use(methodOverride());
 app.use(morgan("dev"));
 
-/*app.get('/get-ejercicio', EjercicioController.getEjercicio);
-app.get('/get-ejercicesByMuscle', EjercicioController.getEjercicesByMuscle);
-app.get('/get-ejercicioById', EjercicioController.getEjerciciobyId);
-app.get('/get-userInfo', UserController.getUserInfo);
-app.post('/ins-userInfo', UserController.InsertUserData);
-app.put('/upd-userPoints', UserController.UpdateUserPoints);
-app.post('/ins-userSessioLog', UserController.InsertUserSSLog);
-app.put('/upd-userColumnData', UserController.UpdateUserDataColumn);
-app.put('/upd-userSize', UserController.UpdateUserSize);
-app.get('/get-stretchByMuscle', EjercicioController.getStretchingByMuscle);
-app.get('/get-warmUpByPlace', EjercicioController.getWarmUpByPlace);
-app.get('/get-warmUpByPlaceType', EjercicioController.getWarmUpByPlaceType);
-app.get('/get-warmUpByPlaceTypeZone', EjercicioController.getWarmUpByPlaceTypeZone);*/
-//app.get('/get-warmUp', EjercicioController.getWarmUpByPlace);
-
-
-/*app.post('/quality/:params', QualityController.quality);
-app.get('/quality', QualityController.getQuality);
-app.post('/catalog/:params', CatalogController.createCatalog);
-app.put('/catalog/:params', CatalogController.updateCatalog);
-app.delete('/catalog/:params', CatalogController.deleteCatalog);
-app.get('/catalog/:params', CatalogController.getCatalogs);
-app.get('/user/:id', UserController.getUser);
-app.post('/calibrate', CalibrationController.calibrate);
-app.get('/calibrate', CalibrationController.getCalibration);*/
-
+/**
+ * End points
+ * */
+app.get('/get-hotels', HotelController.getHotels);
+app.get('/get-hotels-by-stars', HotelController.getHotelsByStars);
 app.get('/', function(req, res){
-    var result = "Hi everyone!";
+    var result = "Hi everyone, base request!";
     res.status(200);
     res.jsonp(result);
 });
 
+
+/**
+ * run the server
+ * */
 app.use(router);
 app.listen(port, function(){
     console.log('Listening on port: ' + port);

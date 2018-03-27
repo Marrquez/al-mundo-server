@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f701301-7870-4cf8-8e37-885b5021d502" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/catalogs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/controllers/CalibrationController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/controllers/CatalogController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/controllers/EjercicioController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/controllers/QualityController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/controllers/UserController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/.server.js.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/app/awsconfig/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/app/models/catalogs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/app/models/ejercicios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/app/models/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/app/utils/constants.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/nohup.out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/output.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/server/controllers/CalibrationController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/server/controllers/CatalogController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/server/controllers/EjercicioController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/server/controllers/UserController.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/ejercicios.js" afterPath="$PROJECT_DIR$/app/models/hotel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/server/controllers/QualityController.js" afterPath="$PROJECT_DIR$/server/controllers/HotelController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/awsconfig/config.js" afterPath="$PROJECT_DIR$/app/awsconfig/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/hotel.js" afterPath="$PROJECT_DIR$/app/models/hotel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/utils/constants.js" afterPath="$PROJECT_DIR$/app/utils/constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/controllers/HotelController.js" afterPath="$PROJECT_DIR$/server/controllers/HotelController.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,80 +21,136 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/awsconfig/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hotel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/hotel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/utils/constants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotelController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/controllers/HotelController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding>
-                <element signature="e#3691#9562#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5971831">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/awsconfig/config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="hotel.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/hotel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HotelController.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/controllers/HotelController.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="1422" column="28" lean-forward="true" selection-start-line="1422" selection-start-column="28" selection-end-line="1422" selection-end-column="28" />
+                  <folding>
+                    <element signature="e#236#33535#0" expanded="false" />
+                    <element signature="e#242#560#0" expanded="false" />
+                    <element signature="e#566#877#0" expanded="false" />
+                    <element signature="e#883#1204#0" expanded="false" />
+                    <element signature="e#1210#1544#0" expanded="false" />
+                    <element signature="e#1550#1873#0" expanded="false" />
+                    <element signature="e#1879#2228#0" expanded="false" />
+                    <element signature="e#2234#2559#0" expanded="false" />
+                    <element signature="e#2565#2904#0" expanded="false" />
+                    <element signature="e#2910#3236#0" expanded="false" />
+                    <element signature="e#3242#3567#0" expanded="false" />
+                    <element signature="e#3573#3906#0" expanded="false" />
+                    <element signature="e#3912#4235#0" expanded="false" />
+                    <element signature="e#4241#4555#0" expanded="false" />
+                    <element signature="e#4561#4889#0" expanded="false" />
+                    <element signature="e#4895#5228#0" expanded="false" />
+                    <element signature="e#5234#5551#0" expanded="false" />
+                    <element signature="e#5557#5883#0" expanded="false" />
+                    <element signature="e#5889#6202#0" expanded="false" />
+                    <element signature="e#6208#6530#0" expanded="false" />
+                    <element signature="e#6536#6878#0" expanded="false" />
+                    <element signature="e#6884#7201#0" expanded="false" />
+                    <element signature="e#7207#7546#0" expanded="false" />
+                    <element signature="e#7552#7885#0" expanded="false" />
+                    <element signature="e#7891#8213#0" expanded="false" />
+                    <element signature="e#8219#8545#0" expanded="false" />
+                    <element signature="e#8551#8895#0" expanded="false" />
+                    <element signature="e#8901#9237#0" expanded="false" />
+                    <element signature="e#9243#9563#0" expanded="false" />
+                    <element signature="e#9569#9879#0" expanded="false" />
+                    <element signature="e#9885#10196#0" expanded="false" />
+                    <element signature="e#10202#10531#0" expanded="false" />
+                    <element signature="e#10537#10854#0" expanded="false" />
+                    <element signature="e#10860#11222#0" expanded="false" />
+                    <element signature="e#11228#11549#0" expanded="false" />
+                    <element signature="e#11555#11878#0" expanded="false" />
+                    <element signature="e#11884#12202#0" expanded="false" />
+                    <element signature="e#12208#12558#0" expanded="false" />
+                    <element signature="e#12564#12888#0" expanded="false" />
+                    <element signature="e#12894#13222#0" expanded="false" />
+                    <element signature="e#13228#13544#0" expanded="false" />
+                    <element signature="e#13550#13870#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="constants.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/utils/constants.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/server.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="197">
+                  <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                  <folding>
+                    <marker date="1522115346324" expanded="true" signature="1058:1125" ph="/*...*/" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stars</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,10 +160,12 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/awsconfig/config.js" />
+        <option value="$PROJECT_DIR$/server/controllers/EjercicioController.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/server/controllers/HotelController.js" />
         <option value="$PROJECT_DIR$/app/models/hotel.js" />
         <option value="$PROJECT_DIR$/app/utils/constants.js" />
-        <option value="$PROJECT_DIR$/server/controllers/EjercicioController.js" />
-        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -172,6 +207,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,12 +216,27 @@
               <item name="almundo-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="almundo-server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="almundo-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almundo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almundo-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almundo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="almundo-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="almundo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,6 +263,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8f701301-7870-4cf8-8e37-885b5021d502" name="Default" comment="" />
@@ -218,12 +273,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521957266893</updated>
-      <workItem from="1521957268263" duration="645000" />
+      <workItem from="1521957268263" duration="1771000" />
+      <workItem from="1522112977542" duration="8459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="645000" />
+    <option name="totallyTimeSpent" value="10230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="0" />
@@ -231,38 +287,66 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5024665" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904148" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/models/HotelModel.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/models/HotelModel.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/main.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/vendor.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/polyfills.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/polyfills.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/test.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/vendor.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/main.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/test.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/app.module.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/app-routing.module.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/app.component.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/app.component.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/app-routing.module.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/environments/environment.prod.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/environments/environment.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/environments/environment.js.map" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/environments/environment.prod.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/services/hotel.service.js" />
+        <option value="$PROJECT_DIR$/../al-mundo-web/src/app/services/hotel.service.js.map" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -277,66 +361,189 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/awsconfig/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="165">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/hotel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils/constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/CatalogController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-838">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/CalibrationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="23" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/controllers/QualityController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="181" selection-end-column="2" />
+        <state relative-caret-position="465">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/controllers/HotelController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="215" column="15" lean-forward="false" selection-start-line="215" selection-start-column="15" selection-end-line="215" selection-end-column="15" />
           <folding>
-            <element signature="e#3691#9562#0" expanded="false" />
+            <element signature="e#236#33535#0" expanded="false" />
+            <element signature="e#242#560#0" expanded="false" />
+            <element signature="e#566#877#0" expanded="false" />
+            <element signature="e#883#1204#0" expanded="false" />
+            <element signature="e#1210#1544#0" expanded="false" />
+            <element signature="e#1550#1873#0" expanded="false" />
+            <element signature="e#1879#2228#0" expanded="false" />
+            <element signature="e#2234#2559#0" expanded="false" />
+            <element signature="e#2565#2904#0" expanded="false" />
+            <element signature="e#2910#3236#0" expanded="false" />
+            <element signature="e#3242#3567#0" expanded="false" />
+            <element signature="e#3573#3906#0" expanded="false" />
+            <element signature="e#3912#4235#0" expanded="false" />
+            <element signature="e#4241#4555#0" expanded="false" />
+            <element signature="e#4561#4889#0" expanded="false" />
+            <element signature="e#4895#5228#0" expanded="false" />
+            <element signature="e#5234#5551#0" expanded="false" />
+            <element signature="e#5557#5883#0" expanded="false" />
+            <element signature="e#5889#6202#0" expanded="false" />
+            <element signature="e#6208#6530#0" expanded="false" />
+            <element signature="e#6536#6878#0" expanded="false" />
+            <element signature="e#6884#7201#0" expanded="false" />
+            <element signature="e#7207#7546#0" expanded="false" />
+            <element signature="e#7552#7885#0" expanded="false" />
+            <element signature="e#7891#8213#0" expanded="false" />
+            <element signature="e#8219#8545#0" expanded="false" />
+            <element signature="e#8551#8895#0" expanded="false" />
+            <element signature="e#8901#9237#0" expanded="false" />
+            <element signature="e#9243#9563#0" expanded="false" />
+            <element signature="e#9569#9879#0" expanded="false" />
+            <element signature="e#9885#10196#0" expanded="false" />
+            <element signature="e#10202#10531#0" expanded="false" />
+            <element signature="e#10537#10854#0" expanded="false" />
+            <element signature="e#10860#11222#0" expanded="false" />
+            <element signature="e#11228#11549#0" expanded="false" />
+            <element signature="e#11555#11878#0" expanded="false" />
+            <element signature="e#11884#12202#0" expanded="false" />
+            <element signature="e#12208#12558#0" expanded="false" />
+            <element signature="e#12564#12888#0" expanded="false" />
+            <element signature="e#12894#13222#0" expanded="false" />
+            <element signature="e#13228#13544#0" expanded="false" />
+            <element signature="e#13550#13870#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <marker date="1522115346324" expanded="true" signature="1058:1125" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/CatalogController.js" />
+    <entry file="file://$PROJECT_DIR$/server/controllers/CalibrationController.js" />
+    <entry file="file://$PROJECT_DIR$/server/controllers/QualityController.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1522115346324" expanded="true" signature="1058:1125" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/awsconfig/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/controllers/HotelController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1422" column="28" lean-forward="true" selection-start-line="1422" selection-start-column="28" selection-end-line="1422" selection-end-column="28" />
+          <folding>
+            <element signature="e#236#33535#0" expanded="false" />
+            <element signature="e#242#560#0" expanded="false" />
+            <element signature="e#566#877#0" expanded="false" />
+            <element signature="e#883#1204#0" expanded="false" />
+            <element signature="e#1210#1544#0" expanded="false" />
+            <element signature="e#1550#1873#0" expanded="false" />
+            <element signature="e#1879#2228#0" expanded="false" />
+            <element signature="e#2234#2559#0" expanded="false" />
+            <element signature="e#2565#2904#0" expanded="false" />
+            <element signature="e#2910#3236#0" expanded="false" />
+            <element signature="e#3242#3567#0" expanded="false" />
+            <element signature="e#3573#3906#0" expanded="false" />
+            <element signature="e#3912#4235#0" expanded="false" />
+            <element signature="e#4241#4555#0" expanded="false" />
+            <element signature="e#4561#4889#0" expanded="false" />
+            <element signature="e#4895#5228#0" expanded="false" />
+            <element signature="e#5234#5551#0" expanded="false" />
+            <element signature="e#5557#5883#0" expanded="false" />
+            <element signature="e#5889#6202#0" expanded="false" />
+            <element signature="e#6208#6530#0" expanded="false" />
+            <element signature="e#6536#6878#0" expanded="false" />
+            <element signature="e#6884#7201#0" expanded="false" />
+            <element signature="e#7207#7546#0" expanded="false" />
+            <element signature="e#7552#7885#0" expanded="false" />
+            <element signature="e#7891#8213#0" expanded="false" />
+            <element signature="e#8219#8545#0" expanded="false" />
+            <element signature="e#8551#8895#0" expanded="false" />
+            <element signature="e#8901#9237#0" expanded="false" />
+            <element signature="e#9243#9563#0" expanded="false" />
+            <element signature="e#9569#9879#0" expanded="false" />
+            <element signature="e#9885#10196#0" expanded="false" />
+            <element signature="e#10202#10531#0" expanded="false" />
+            <element signature="e#10537#10854#0" expanded="false" />
+            <element signature="e#10860#11222#0" expanded="false" />
+            <element signature="e#11228#11549#0" expanded="false" />
+            <element signature="e#11555#11878#0" expanded="false" />
+            <element signature="e#11884#12202#0" expanded="false" />
+            <element signature="e#12208#12558#0" expanded="false" />
+            <element signature="e#12564#12888#0" expanded="false" />
+            <element signature="e#12894#13222#0" expanded="false" />
+            <element signature="e#13228#13544#0" expanded="false" />
+            <element signature="e#13550#13870#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/hotel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/utils/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding />
         </state>
       </provider>

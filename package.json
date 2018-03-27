@@ -54,7 +54,7 @@
     "webpack-path-rewriter": "^1.1.2"
   },
   "dependencies": {
-    "aws-sdk": "^2.4.11",
+    "aws-sdk": "^2.214.1",
     "body-parser": "^1.5.1",
     "connect": "^3.4.1",
     "cors": "^2.7.1",

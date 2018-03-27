@@ -29,7 +29,7 @@ module.exports = {
     MAX_EMAILS_ALLOWED: 3,
 
     // dynamo tables
-    DYN_USERS_TABLE: 'hotels',
+    DYN_HOTELS_TABLE: 'hotels',
     DYN_USERSESSIONLOG_TABLE: 'T_UserSessionLog',
     DYN_STRETCHING_TABLE: 'T_Stretching',
     DYN_WARMUP_TABLE: 'T_Warmup',
